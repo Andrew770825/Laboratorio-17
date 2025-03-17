@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        /* Navegación */
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Secciones */
+        section {
+            padding: 40px 20px;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        /* Estilos para las tarjetas de proyectos */
+        .proyectos-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .proyecto {
+            background-color: #e2e2e2;
+            padding: 20px;
+            margin: 10px;
+            width: 250px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .proyecto img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .proyecto h3 {
+            margin: 10px 0;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        /* Estilos para el botón de contacto */
+        .boton-contacto {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        .boton-contacto:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Luis Andrwk Gonzalez Diaz</h1>
+        <p>Tecnologo en gestion empresarial / Estudiante de programacion</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Sección Sobre mí -->
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>¡Hola! Soy Luis Gonzalez, un Tecnologo en gestion empresarial apasionado por la tecnología. Me encanta crear soluciones innovadoras y mejorar continuamente mis habilidades. Trabajo con HTML, CSS, JavaScript, y más. Mi objetivo es construir experiencias web únicas y funcionales.</p>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyectos-container">
+            <div class="proyecto">
+                <img src="https://via.placeholder.com/250" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto 1. Un sitio web interactivo con tecnologías modernas.</p>
+            </div>
+            <div class="proyecto">
+                <img src="https://via.placeholder.com/250" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto 2. Aplicación móvil con integración API.</p>
+            </div>
+            <div class="proyecto">
+                <img src="https://via.placeholder.com/250" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve del proyecto 3. Portafolio personal responsive.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Psicologia</li>
+            <li>Interaccion Personal</li>
+            <li>Ingles nivel medio</li>
+            <li>Compromiso</li>
+            <li>Responsabiidad</li>
+            <li>Empatia </li>
+            <li>Orientacion a resultados </li>
+            <li>Capacidad de aprendizaje</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas saber más sobre mi trabajo o discutir colaboraciones, no dudes en contactarme.</p>
+        <button class="boton-contacto" onclick="alert('lagd77@hotmail.com');">Contactar</button>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Juan Pérez. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- JavaScript para interactividad -->
+    <script>
+        // JavaScript simple para mostrar un mensaje de contacto
+        function mostrarMensaje() {
+            alert('¡Gracias por tu interés!');
+        }
+    </script>
+
+</body>
+</html>
